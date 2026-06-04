@@ -3,6 +3,23 @@
 Bu repo, gelecekte Zamanla AI organizasyonu ve çoklu ajan sistemleri tasarlarken tekrar dönüp incelemek istediğimiz araştırmaları içerir.
 
 ---
+## Çekirdek Araştırma Grubu
+
+Bu projeler AI organizasyonu, hafıza, orkestrasyon ve çoklu ajan sistemleri için en değerli referanslardır.
+
+- MAPLE
+- Harness_Engineering
+- agents-system-setup
+- Maestro
+- Forge
+- Sugar
+- agentic-memory
+- second-claude-code
+- codex-workflows
+- ticker
+- Wardrobe
+- git-rag-claude
+- Edogawaguy
 
 # Orkestrasyon
 
@@ -162,3 +179,17 @@ Notlar:
 - Progress Tracking
 - Organizational Learning
 - Multi-Agent Systems
+# Zamanla İçin Alınabilecek Fikirler
+
+- AI Genel Müdür (Orchestrator)
+- Satış AI
+- CRM AI
+- Operasyon AI
+- Concierge AI
+- Shared Memory
+- Decision Memory
+- Human Approval Gates
+- Progress Tracking
+- Context Refresh
+- Workflow Engine
+- Multi-Agent Organization
