@@ -1,195 +1,250 @@
 # Yapay Zeka Araştırma Kütüphanesi
 
-Bu repo, gelecekte Zamanla AI organizasyonu ve çoklu ajan sistemleri tasarlarken tekrar dönüp incelemek istediğimiz araştırmaları içerir.
-
----
-## Çekirdek Araştırma Grubu
-
-Bu projeler AI organizasyonu, hafıza, orkestrasyon ve çoklu ajan sistemleri için en değerli referanslardır.
-
-- MAPLE
-- Harness_Engineering
-- agents-system-setup
-- Maestro
-- Forge
-- Sugar
-- agentic-memory
-- second-claude-code
-- codex-workflows
-- ticker
-- Wardrobe
-- git-rag-claude
-- Edogawaguy
-
-# Orkestrasyon
-
-## MAPLE
-Repo:
-https://github.com/kinncj/MAPLE
-
-Notlar:
-- Agent orchestration
-- Human approval gates
-- Multi-agent workflow
-- Görev dağıtımı ve kontrol
-
-## Harness_Engineering
-Repo:
-https://github.com/ArtemisAI/Harness_Engineering
-
-Notlar:
-- Progress tracking
-- Agent coordination
-- Operational workflows
-
-## Maestro
-Repo:
-https://github.com/neilzhangpro/Maestro
-
-Notlar:
-- AI management system
-- Supervisor yaklaşımı
-- Agent yönetimi
+Bu depo, agent mimarileri, hafıza sistemleri, orkestrasyon, bilgi organizasyonu ve AI çalışma sistemleri üzerine uzun vadeli araştırma kütüphanesidir.
 
 ---
 
-# Hafıza
+# Çekirdek Referanslar
 
-## Sugar
-Repo:
-https://github.com/roboticforce/sugar
+## Ecosystem & Architecture Maps
 
-Notlar:
-- Persistent memory
+### reference-levels
+Amaç:
+- AI sistemlerini katmanlara ayırma
+- Runtime
+- Harness
+- Governance
+- Memory
+- Interface
+- Data
+
+Değer:
+AI sistemlerini sınıflandırmak için referans çerçeve.
+
+---
+
+### Agentic-AI-Ecosystem
+Amaç:
+- Agent ekosistemi haritası
+- Araç ve kavram sınıflandırması
+
+Değer:
+Yeni araştırma alanlarını keşfetmek için rehber.
+
+---
+
+### awesome-agentic-patterns
+Amaç:
+- Agent tasarım desenleri
+- Multi-agent yapıları
+- Planlama
+- İş akışları
+
+Değer:
+Agent davranış modelleri.
+
+---
+
+# Memory & Knowledge Systems
+
+### agentic-memory
+Amaç:
 - Agent hafızası
-- Bilgi sürekliliği
+- Kalıcı bağlam
+- Öğrenen sistemler
 
-## agentic-memory
-Repo:
-https://github.com/lhl/agentic-memory
-
-Notlar:
-- Long-term memory
-- Shared memory
-- Organizational memory
-
-## git-rag-claude
-Repo:
-https://github.com/Csanad-L-Balogh/git-rag-claude
-
-Notlar:
-- Git history as knowledge
-- Decision memory
-- Kurumsal hafıza
-
-## ticker
-Repo:
-https://github.com/vibewrk/ticker
-
-Notlar:
-- Heartbeat
-- Context refresh
-- Context preservation
+Değer:
+Uzun süreli yapay zeka hafızası.
 
 ---
 
-# Agent Tasarımı
+### llm-wiki
+Amaç:
+- Kurumsal bilgi bankası
+- Kalıcı wiki
+- Bilgi birikimi
 
-## Wardrobe
-Repo:
-https://github.com/danmestas/wardrobe
-
-Notlar:
-- Agent roles
-- Skills
-- Capabilities
-- Role architecture
-
-## agents-system-setup
-Repo:
-https://github.com/ytthuan/agents-system-setup
-
-Notlar:
-- Agent organization
-- Agent hierarchy
-- Team structure
+Değer:
+Organizasyonel hafıza sistemi.
 
 ---
 
-# Runtime
+### data-centered
+Amaç:
+- Dosya tabanlı bilgi yönetimi
+- Yapısal veri organizasyonu
 
-## Forge
-Repo:
-https://github.com/hoangsonww/Forge-Agentic-Coding-CLI
-
-Notlar:
-- Agent runtime
-- Multi-agent execution
-- Operational engine
-
-## Edogawaguy
-Repo:
-https://github.com/fshp971/edogawaguy
-
-Notlar:
-- Multi-model runtime
-- Supervisor architecture
-- Claude + Gemini + OpenAI
+Değer:
+AI dostu bilgi depoları.
 
 ---
 
-# İş Akışları
+### ai-topics
+Amaç:
+- Bilgi sınıflandırması
+- Kavram yönetimi
+- Bilgi mimarisi
 
-## codex-workflows
-Repo:
-https://github.com/shinpr/codex-workflows
-
-Notlar:
-- PRD
-- ADR
-- TDD
-- Structured development
-
-## second-claude-code
-Repo:
-https://github.com/unclejobs-ai/second-claude-code
-
-Notlar:
-- Learning loop
-- Continuous improvement
-- PDCA workflow
+Değer:
+Kurumsal bilgi düzenleme örneği.
 
 ---
 
-# Gelecekte Kullanılabilecek Kavramlar
+# Agent Runtime & Orchestration
 
-- Orchestrator
-- Supervisor
-- Sub-Agent
-- Agent Runtime
-- Persistent Memory
-- Shared Memory
-- Git-RAG
-- Decision Memory
-- Context Refresh
-- Heartbeat
-- Human Approval Gates
-- Workflow Engine
-- Skill-Based Agents
-- Progress Tracking
-- Organizational Learning
-- Multi-Agent Systems
-# Zamanla İçin Alınabilecek Fikirler
+### MAPLE
+Amaç:
+- Çok ajan koordinasyonu
+- Agent orkestrasyonu
 
-- AI Genel Müdür (Orchestrator)
-- Satış AI
-- CRM AI
-- Operasyon AI
-- Concierge AI
-- Shared Memory
-- Decision Memory
-- Human Approval Gates
-- Progress Tracking
-- Context Refresh
-- Workflow Engine
-- Multi-Agent Organization
+Değer:
+Agent iş akışları.
+
+---
+
+### Harness_Engineering
+Amaç:
+- Agent çalışma ortamları
+- Kontrol sistemleri
+
+Değer:
+Üretim ortamı tasarımı.
+
+---
+
+### Maestro
+Amaç:
+- Yapay zeka yönetimi
+- Agent koordinasyonu
+
+Değer:
+Agent operasyon yönetimi.
+
+---
+
+### Forge Agentic Coding CLI
+Amaç:
+- Agent destekli yazılım geliştirme
+
+Değer:
+Kod üretim iş akışları.
+
+---
+
+### Sugar
+Amaç:
+- Agent operasyonları
+- Geliştirici deneyimi
+
+Değer:
+Çalışma sistemi örnekleri.
+
+---
+
+### Intergrax
+Amaç:
+- Sistem entegrasyonu
+- Agent koordinasyonu
+
+Değer:
+Workflow tasarımı.
+
+---
+
+# Agent Skills & Capability Systems
+
+### skills
+Amaç:
+- Agent yetenekleri
+- Skill organizasyonu
+- Capability yönetimi
+
+Değer:
+Agent beceri mimarisi.
+
+---
+
+# Research Automation
+
+### deep-researcher
+Amaç:
+- Derin araştırma ajanları
+- Kaynak toplama
+- Bilgi sentezi
+
+Değer:
+Araştırma otomasyonu.
+
+---
+
+# Agentic Development Systems
+
+### second-claude-code
+Amaç:
+- Agent destekli geliştirme
+
+---
+
+### codex-workflows
+Amaç:
+- Kodlama iş akışları
+
+---
+
+### git-rag-claude
+Amaç:
+- Git tabanlı bilgi erişimi
+- Kod hafızası
+
+---
+
+### daily-code-agent
+Amaç:
+- Günlük agent destekli geliştirme
+
+---
+
+# İncelenecekler
+
+### Autonomous-Agents
+
+### Edogawaguy
+
+### Infiv
+
+### agents-system-setup
+
+### ticker
+
+### Wardrobe
+
+---
+
+# Araştırma İlkeleri
+
+Araştırma öncelikleri:
+
+1. Agent Architecture
+2. Agent Memory
+3. Context Engineering
+4. Agent Runtime
+5. Agent Orchestration
+6. Knowledge Architecture
+7. Organizational Memory
+8. Multi-Agent Systems
+9. Agent Governance
+10. Workflow Automation
+
+Araştırma dışı alanlar:
+
+- Daily Arxiv
+- Paper Reader
+- Paper Digest
+- Newsletter
+- Weather App
+- Landing Page
+- Portfolio
+- Blog
+- Eğitim Notları
+
+Bu alanlar gelecekte araştırma kapsamı dışında tutulacaktır.
